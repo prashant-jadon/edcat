@@ -8,6 +8,6 @@ count = 0
 for line in Lines:
     count += 1
     temp =line.strip()
-    name= line.replace("https://firebasestorage.googleapis.com/v0/b/unseen1-1.appspot.com/o/","")
+    name= line.replace("bucket_URL","")
     r = requests.get(temp, allow_redirects=True)
     open(name +".mp4", 'wb').write(r.content)
