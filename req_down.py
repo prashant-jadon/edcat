@@ -3,14 +3,14 @@ import pyrebase
 import requests
 
 config = {
-    "apiKey" : "AIzaSyAetMmzyqpksGjdvXbYVAk5gWmEdH4GC1I",
-    "authDomain" : "unseen1-1.firebaseapp.com",
-    "databaseURL" : "https://unseen1-1-default-rtdb.firebaseio.com",
-    "projectId" : "unseen1-1",
-    "storageBucket" : "unseen1-1.appspot.com",
-    "messagingSenderId" : "336843569987",
-    "appId" : "1:336843569987:web:76be1bbee6a4e8098a8df6",
-    "measurementId" : "G-REW7MW4FZB",
+    "apiKey" : "api-key",
+    "authDomain" : "domain",
+    "databaseURL" : "database-url",
+    "projectId" : "project id",
+    "storageBucket" : "your bucket",
+    "messagingSenderId" : "sender id",
+    "appId" : "app id",
+    "measurementId" : "i=measurement id",
     "serviceAccount": "service_acc.json"
 }
 
