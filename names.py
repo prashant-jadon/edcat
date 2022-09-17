@@ -87,7 +87,7 @@ for file in files:
     Lines = file1.readlines()
     count = 0
 
-    # Strips the newline character
+    
     for line in Lines:
         count += 1
         temp = line.strip()
