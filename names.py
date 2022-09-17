@@ -3,14 +3,14 @@ import pyrebase
 import requests
 
 config = {
-    "apiKey" : "AIzaSyAetMmzyqpksGjdvXbYVAk5gWmEdH4GC1I",
-    "authDomain" : "unseen1-1.firebaseapp.com",
-    "databaseURL" : "https://unseen1-1-default-rtdb.firebaseio.com",
-    "projectId" : "unseen1-1",
-    "storageBucket" : "unseen1-1.appspot.com",
-    "messagingSenderId" : "336843569987",
-    "appId" : "1:336843569987:web:76be1bbee6a4e8098a8df6",
-    "measurementId" : "G-REW7MW4FZB",
+    "apiKey" : "api-key",
+    "authDomain" : "auth domain-1.firebaseapp.com",
+    "databaseURL" : "database-url",
+    "projectId" : "project_ID-1",
+    "storageBucket" : "bucket",
+    "messagingSenderId" : "messenger id",
+    "appId" : "app id",
+    "measurementId" : "Measurement id",
     "serviceAccount": "service_acc.json"
 }
 
@@ -91,7 +91,7 @@ for file in files:
     for line in Lines:
         count += 1
         temp = line.strip()
-        name = line.replace("https://firebasestorage.googleapis.com/v0/b/unseen1-1.appspot.com/o/", "")
+        name = line.replace("bucket url", "")
         nameofthefile = file.name
         z = storage.child(file.name).get_url(None)
         new_name = name.replace("%2F","%252F")
